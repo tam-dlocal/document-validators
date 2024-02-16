@@ -16,7 +16,7 @@ This repository contains a simple Express.js application for validating various 
     cd document-validator-api
     npm install
     ```
-    
+
 ## Usage
 1. Start the server:
 
@@ -67,30 +67,26 @@ CPF
 * Valid CPF: "123.456.789-09"
 
 CNPJ
-* Valid CNPJ: "12.345.678/0001-90"
+* Valid CNPJ: "25.021.356/0001-32"
 
 PAN
-* Valid PAN: "ABCDE1234F"
+* Valid PAN: "AAACT2727Q"
 
 South Africa National ID
-* Valid South Africa National ID: "8501015009087"
+* Valid South Africa National ID: "9202295029188"
 
 ### Invalid Examples
 CPF
-* Invalid CPF (length): "123.456.789-012"
-* Invalid CPF (checksum): "123.456.789-01"
+* Invalid CPF: "123.456.789-12"
 
 CNPJ
-* Invalid CNPJ (length): "12.345.678/0001-901"
-* Invalid CNPJ (checksum): "12.345.678/0001-91"
+* Invalid CNPJ: "12.345.678/0001-91"
 
 PAN
-* Invalid PAN (length): "ABCDE12345"
-* Invalid PAN (format): "ABCDE1234X"
+* Invalid PAN: "ABCDE12345"
 
 South Africa National ID
-* Invalid South Africa National ID (length): "85010150090876"
-* Invalid South Africa National ID (checksum): "8501015009086"
+* Invalid South Africa National ID: "85010150090876"
 
 Dependencies
 * express: Fast, unopinionated, minimalist web framework for Node.js
