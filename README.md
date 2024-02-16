@@ -88,10 +88,10 @@ PAN
 South Africa National ID
 * Invalid South Africa National ID: "85010150090876"
 
-Dependencies
-* express: Fast, unopinionated, minimalist web framework for Node.js
-* pancardjs: Library for PAN (Permanent Account Number) validation
-* valid-south-african-id: Library for South African National ID validation
+## Dependencies
+* [express](https://www.npmjs.com/package/express): Fast, unopinionated, minimalist web framework for Node.js
+* [pancardjs](https://www.jsdelivr.com/package/npm/pancardjs): Library for PAN (Permanent Account Number) validation
+* [valid-south-african-id](https://github.com/tiaanduplessis/valid-south-african-id): Library for South African National ID validation
 
 ## Contributing
 Feel free to contribute by opening issues or submitting pull requests.
