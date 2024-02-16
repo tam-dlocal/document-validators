@@ -26,17 +26,17 @@ This repository contains a simple Express.js application for validating various 
 
 2. The server will be running on http://localhost:3000.
 
-3. Send a POST request to the /validate endpoint with a JSON payload containing the document to be validated. Example:
+3. Send a POST request to the **`/validate`** endpoint with a JSON payload containing the document to be validated. Example:
 
     ```bash
     curl -X POST -H "Content-Type: application/json" -d '{"document": "12345678909"}' http://localhost:3000/validate
     ```
 
-Replace "12345678909" with the document you want to validate.
+Replace **`"12345678909"`** with the document you want to validate.
 
 ## Endpoints
-### POST /validate
-* Input: JSON payload with a document field containing the document to be validated.
+### POST **`/validate`**
+* **Input**: JSON payload with a **`document`** field containing the document to be validated.
 
     ```bash
     {
@@ -44,7 +44,7 @@ Replace "12345678909" with the document you want to validate.
     }
     ```
 
-* Output: JSON response indicating whether the document is valid or not, along with the document type.
+* **Output**: JSON response indicating whether the document is valid or not, along with the document type.
 
     ```bash
     {
